@@ -3,5 +3,7 @@ public class Test {
         System.out.println("education");
         // new String
         System.out.println("DICT");
+
+        System.out.println("Java");
     }
 }
