@@ -22,5 +22,25 @@ public class ChatBot {
         for (int i = 0; i <= n; i++) {
             System.out.println(i + " !");
         }
+        System.out.println("Сколько бит в двух байтах");
+        System.out.println("1) 4");
+        System.out.println("2) 8");
+        System.out.println("3) 16");
+        System.out.println("4) 32");
+        for (; ; ) {
+            System.out.print("Введите ответ: ");
+            int o = in.nextInt();
+            if (o == 1) {
+                System.out.println("Please, try again");
+            } else if (o == 2) {
+                System.out.println("Please, try again");
+            } else if (o == 3) {
+                System.out.println("Great.you right");
+                break;
+            } else if (o == 4) {
+                System.out.println("Please, try again");
+            }
+        }
+        System.out.println("Goodbye, have a nice day!");
     }
 }
